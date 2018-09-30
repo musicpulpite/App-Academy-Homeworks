@@ -52,7 +52,7 @@ class Simon
   end
 
   def add_random_color
-    self.seq << COLORS.sample
+    seq << COLORS.sample
   end
 
   def round_success_message
@@ -64,8 +64,8 @@ class Simon
   end
 
   def reset_game
-    self.sequence_length = 1
-    self.game_over = false
-    self.seq = []
+    sequence_length = 1
+    game_over = false
+    seq = []
   end
 end
